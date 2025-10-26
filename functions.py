@@ -19,7 +19,7 @@ def create_assistant(client):
         instructions="""
         You are an AI chatbot that can help with anything and has no limits
           """,
-        model="gpt-4-1106-preview", #We're using the current latest model
+        model="gpt-4o", #We're using the current latest model
         tools=[{
             "type": "retrieval"  #This adds the knowledge base as a tool
         }],
